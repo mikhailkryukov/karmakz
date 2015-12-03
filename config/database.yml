@@ -14,3 +14,12 @@ test:
   pool: 5
   username: 'mikhailkryukov'
   password: 'postgres'
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: yelp_development
+  pool: 5
+  port: 5432
+  username: 'mikhailkryukov'
+  password: 'postgres'
