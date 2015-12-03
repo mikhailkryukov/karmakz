@@ -1,5 +1,5 @@
-%h1.text-center.large-heading Welcome!
-%p.welcome-text People use Yelp to search for everything from the city's tastiest burger to the most renowned cardiologist. This web app is clone of the real Yelp site and was made for educational purpose. Try it out and have fun.
+%h1.text-center.large-heading Добро пожаловать!
+%p.welcome-text Используйте Карму для поиска от самого вкусного ресторана до лучшего стоматолога. Карма создана для вас, попробуйте и не пожалеете!
 .text-center
   = link_to 'Tutorial', help_path, class: 'btn btn-primary tutorial'
   %br
@@ -7,7 +7,7 @@
     = link_to 'Sign up', signup_path, class: 'btn btn-primary'
     = link_to 'Login', login_path, class: 'btn btn-default default-button'
 
-%h1.text-center Recent reviews
+%h1.text-center Свежие отзывы
 - @reviews.each do |review|
   .review
   = render 'shared/review', review: review
