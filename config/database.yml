@@ -14,12 +14,3 @@ test:
   pool: 5
   username: 'mikhailkryukov'
   password: 'postgres'
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: karma_production
-  pool: 5
-  port: 5432
-  username: 'mikhailkryukov'
-  password: 'postgres'
