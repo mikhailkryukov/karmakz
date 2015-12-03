@@ -15,10 +15,10 @@ test:
   username: 'mikhailkryukov'
   password: 'postgres'
 
-development:
+production:
   adapter: postgresql
   encoding: unicode
-  database: yelp_development
+  database: karma_production
   pool: 5
   port: 5432
   username: 'mikhailkryukov'
